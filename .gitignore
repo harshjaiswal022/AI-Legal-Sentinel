@@ -1,0 +1,33 @@
+# General
+.DS_Store
+.env
+.env.local
+.env.*.local
+
+# Backend (Python)
+backend/.env
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Frontend (Node.js)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.pnp
+frontend/.pnp.js
+frontend/coverage/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+pydantic-settings
+groq
+pypdf
+motor
+pymongo
+bcrypt
+python-jose
+email-validator
