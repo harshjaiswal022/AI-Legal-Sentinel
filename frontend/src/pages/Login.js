@@ -135,8 +135,9 @@ export default function Login() {
             <div style={{ marginBottom: '2rem' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
                 <label style={{ fontWeight: '600', color: '#334155', fontSize: '0.9rem' }}>Password</label>
-                <a href="#" style={{ fontSize: '0.85rem', color: '#4f46e5', fontWeight: '600' }}>Forgot password?</a>
-              </div>
+          <Link to="/signup" style={{ fontSize: '0.85rem', color: '#4f46e5', fontWeight: '600' }}>
+  Forgot password?
+</Link>              </div>
               <div style={{ position: 'relative' }}>
                 <Lock size={18} color="#94a3b8" style={{ position: 'absolute', left: '16px', top: '50%', transform: 'translateY(-50%)', pointerEvents: 'none' }} />
                 {/* Bug fix: added className="input-field" for consistent styling */}

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { UserPlus, Mail, Lock, ArrowRight, User, CheckCircle, XCircle, Eye, EyeOff } from "lucide-react";
-import { useToast } from "../components/Toast";
+import { UserPlus, Mail, Lock, User, CheckCircle, XCircle, Eye, EyeOff } from "lucide-react";import { useToast } from "../components/Toast";
 import API from "../services/api";
 
 export default function Signup() {
